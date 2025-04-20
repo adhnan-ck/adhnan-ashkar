@@ -1,0 +1,39 @@
+---
+import PageLayout from "@/layouts/Base.astro";
+import { Icon } from "astro-icon/components";
+
+const meta = {
+	description: "I'm a starter theme for Astro.build",
+	title: "About",
+};
+---
+
+<PageLayout meta={meta}>
+	<h1 class="title mb-6">About</h1>
+	<div class="prose prose-sm prose-cactus max-w-none">
+		<p>
+			I’m passionate about technology’s ability to innovate and connect. The internet, a network of
+			servers and protocols, delivers data with precision, powering seamless digital experiences.
+			I’m fascinated by how software transforms ideas into solutions. As a developer, I’m driven to
+			craft efficient, impactful code, fueled by a curiosity to explore and create.
+		</p>
+		<p>Skills:</p>
+		<ul class="list-inside list-disc" role="list">
+			<li><strong>Backend:</strong> Java Spring boot, JDBC, Hibernate, Firebase</li>
+			<li><strong>Frontend:</strong> Html, CSS, Javasript, React JS, Bootstrap, Tailwind CSS</li>
+			<li><strong>Database:</strong> MySQL, Postgres, Firestore, Firebase Realtime Database</li>
+			<li>
+				<strong>Others:</strong> Python, Git, Software Testing, Web Hosting, Video Editing, etc.
+			</li>
+		</ul>
+
+		<a
+			class="cactus-link inline-flex items-center justify-center gap-2 text-lg font-bold text-blue-600 hover:underline"
+			href="/AdhnanAshkarResume1.pdf"
+			download
+		>
+			<Icon name="mdi:download" class="h-5 w-5" aria-hidden="true" />
+			<span>Download CV</span>
+		</a>
+	</div>
+</PageLayout>

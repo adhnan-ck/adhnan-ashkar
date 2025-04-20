@@ -1,0 +1,31 @@
+<svg
+				aria-hidden="true"
+				class="me-3 h-10 w-6 sm:absolute sm:-start-18 sm:me-0 sm:h-20 sm:w-12"
+				fill="none"
+				focusable="false"
+				viewBox="0 0 272 480"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<title>CK</title>
+				<!-- C shape -->
+				<path
+					d="M40 120 C 50 80, 120 60, 130 120 L 100 140 C 95 110, 60 110, 70 140 L 70 340 C 60 370, 95 370, 100 340 L 130 360 C 120 420, 50 400, 40 360 L 40 120 Z"
+					fill="#B04304"></path>
+
+				<!-- K shape -->
+				<path
+					d="M150 60 L 190 60 L 190 210 L 240 140 L 290 170 L 220 240 L 290 310 L 240 340 L 190 270 L 190 420 L 150 420 L 150 60 Z"
+					fill="#53C68C"></path>
+
+				<!-- Accent elements with geometric shapes -->
+				<path d="M100 40 L 70 10 L 130 10 L 100 40 Z" fill="#FF5D01"></path>
+
+				<path d="M220 100 L 190 70 L 250 70 L 220 100 Z" fill="#FF5D01"></path>
+
+				<path d="M220 380 L 190 410 L 250 410 L 220 380 Z" fill="#FF5D01"></path>
+
+				<!-- Additional decorative elements -->
+				<path d="M40 240 L 10 240 L 10 270 L 40 270 L 40 240 Z" fill="#FF5D01"></path>
+
+				<path d="M250 240 L 230 220 L 270 220 L 250 240 Z" fill="#B04304"></path>
+			</svg>
