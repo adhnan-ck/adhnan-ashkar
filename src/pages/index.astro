@@ -5,6 +5,8 @@ import SocialList from "@/components/SocialList.astro";
 // import Note from "@/components/note/Note.astro";
 // import { getAllPosts } from "@/data/post";
 import PageLayout from "@/layouts/Base.astro";
+import DecrypterText, { AdvancedDecrypterText } from "../components/DecrypterText.jsx";
+
 // import { collectionDateSort } from "@/utils/date";
 
 // Posts
@@ -22,12 +24,16 @@ import PageLayout from "@/layouts/Base.astro";
 
 <PageLayout meta={{ title: "Home" }}>
 	<section>
-		<h1 class="title mb-6">Software Developer</h1>
+		<h1 class="title mb-6">
+			<AdvancedDecrypterText client:load text="Sofware Developer" speed={80} />
+		</h1>
 		<p class="mb-4">
-			I’m Adhnan, a software developer from Kerala, India, specializing in full-stack development. I
-			enjoy creating responsive, user-friendly web applications from front to back. I am experienced
-			in coding and deploying websites for businesses. Contact me if there is anything i can do for
-			you.
+			<DecrypterText
+				client:load
+				text="I Love to build things and solve problems."
+				speed={10}
+				startDelay={100}
+			/>
 		</p>
 		<SocialList />
 		<!-- </section>

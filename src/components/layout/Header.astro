@@ -2,6 +2,7 @@
 import Search from "@/components/Search.astro";
 import ThemeToggle from "@/components/ThemeToggle.astro";
 import { menuLinks } from "@/site.config";
+import { AdvancedDecrypterText } from "../DecrypterText";
 ---
 
 <header class="group relative mb-28 flex items-center sm:ps-18" id="main-header">
@@ -42,7 +43,15 @@ import { menuLinks } from "@/site.config";
 
 				<path d="M250 240 L 230 220 L 270 220 L 250 240 Z" fill="#B04304"></path>
 			</svg>
-			<span class="text-xl font-bold sm:text-2xl">Adhnan Ashkar Ck</span>
+			<span class="text-xl font-bold sm:text-2xl">
+				<AdvancedDecrypterText
+					client:load
+					text="Adhnan Ashkar CK"
+					speed={60}
+					glowEffect={true}
+					typewriterEffect={true}
+				/>
+			</span>
 		</a>
 		<nav
 			aria-label="Main menu"
